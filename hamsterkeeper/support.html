@@ -1,38 +1,182 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>技术支持 - 仓鼠管家</title>
-  <style>
-    body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6;margin:0;background:#fafafa;color:#222}
-    .container{max-width:820px;margin:24px auto;padding:0 16px}
-    h1{font-size:24px}
-    footer{margin:32px 0;color:#666;font-size:12px}
-    a{color:#0a84ff;text-decoration:none}
-  </style>
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="format-detection" content="telephone=no,email=no" />
-  <link rel="icon" href="../iOS/Sources/Media.xcassets/AppIcon.appiconset/icon-1024.png" />
-  <meta name="description" content="仓鼠管家 技术支持" />
-  <meta name="robots" content="noindex" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>仓鼠管家 - 技术支持</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px 0;
+            border-bottom: 2px solid #007AFF;
+        }
+        .header h1 {
+            color: #007AFF;
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            color: #333;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+        .faq-item {
+            margin-bottom: 20px;
+        }
+        .faq-question {
+            font-weight: bold;
+            color: #007AFF;
+            margin-bottom: 5px;
+        }
+        .contact-info {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        .features {
+            background-color: #f0f8ff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .features ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        .social-links {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .social-links a {
+            color: #007AFF;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h1>技术支持</h1>
-    <p>如需帮助、问题反馈或合作咨询，请发送邮件至：<a href="mailto:xiaoxiong@yomage.com">xiaoxiong@yomage.com</a>。我们会尽快回复。</p>
-    <p>也欢迎关注抖音账号：<strong>@小熊的AI创业记</strong>，获取最新教程、版本更新与产品路线图。</p>
-    <ul>
-      <li>常见问题：无法登录、识别不准确、提醒未触发等</li>
-      <li>功能建议：拍照识别、草稿承接、VIP权益等</li>
-      <li>数据问题：账号迁移、数据同步等</li>
-    </ul>
-    <footer>
-      <p>开发者：小熊（\@小熊的AI创业记） | 联系方式：<a href="mailto:xiaoxiong@yomage.com">xiaoxiong@yomage.com</a></p>
-      <p><a href="https://beian.miit.gov.cn" target="_blank" rel="noopener">沪ICP备xxxx号-2A</a></p>
-    </footer>
-  </div>
+    <div class="header">
+        <h1>仓鼠管家</h1>
+        <p>这是一款专注于“拍照识别录入 + 到期提醒”的效率工具：拍张图就记上啦！超简单！超方便！超实用！</p>
+    </div>
+
+    <div class="section features">
+        <h2>✨ 主要功能</h2>
+        <ul>
+            <li>📷 智能拍照录入，拍照识别物品与日期，自动生成记录</li>
+            <li>📅 物品到期提醒，按剩余/临期/已过期清晰分组</li>
+            <li>📝 草稿箱承接，识别后可在草稿中完善再入库</li>
+            <li>🔒 云端同步，登录后多设备数据一致</li>
+        </ul>
+    </div>
+
+    <!-- <div class="section">
+        <h2>📖 使用指南</h2>
+        
+        <h3>1. 创建文稿</h3>
+        <p>• 在首页点击"+"按钮创建新文稿<br>
+        • 输入标题和内容，支持从备忘录、剪贴板导入<br>
+        • 自动计算字数和预计时长</p>
+        
+        <h3>2. 开始录制</h3>
+        <p>• 选择文稿后进入录制界面<br>
+        • 调整提词器窗口位置和大小<br>
+        • 点击录制按钮开始拍摄</p>
+        
+        <h3>3. 自定义设置</h3>
+        <p>• 在首页或录制页面点击设置图标<br>
+        • 调整字体大小、颜色、滚动速度等<br>
+        • 设置延迟时间和阅读提示线</p>
+    </div> -->
+
+    <!-- <div class="section">
+        <h2>❓ 常见问题</h2>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q: 为什么提词器窗口拖不动？</div>
+            <div>A: 请确保按住窗口底部的拖动图标（四向箭头）进行拖拽，不要点击其他区域。</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q: 如何调整提词器窗口大小？</div>
+            <div>A: 按住窗口底部右侧的缩放图标，向外拖动可放大，向内拖动可缩小。</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q: 提词器不滚动怎么办？</div>
+            <div>A: 确保在设置中配置了合适的滚动速度，并且点击录制按钮后等待设定的延迟时间。</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q: 录制的视频保存在哪里？</div>
+            <div>A: 录制完成后视频会自动保存到系统相册中，您可以在"照片"App中查看。</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q: 支持横屏录制吗？</div>
+            <div>A: 支持！App会自动检测设备方向，横竖屏都能正常使用。</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q: 数据安全吗？</div>
+            <div>A: 完全安全！所有文稿和设置都存储在您的设备本地，不会上传到任何服务器。</div>
+        </div>
+    </div> -->
+
+    <div class="section">
+        <h2>🔧 故障排除</h2>
+        
+        <h3>相机无法打开</h3>
+        <p>请检查是否已授权相机和麦克风权限：<br>
+        设置 → 隐私与安全性 → 相机 → 仓鼠管家</p>
+        
+        <!-- <h3>无法保存视频</h3>
+        <p>请检查是否已授权照片访问权限：<br>
+        设置 → 隐私与安全性 → 照片 → 仓鼠管家</p> -->
+        
+        <h3>App崩溃或卡顿</h3>
+        <p>• 重启App<br>
+        • 重启设备<br>
+        • 确保iOS系统版本在14.0以上<br>
+        • 清理设备存储空间</p>
+    </div>
+
+    <!-- <div class="section">
+        <h2>📱 系统要求</h2>
+        <p>• iOS 14.0 或更高版本<br>
+        • 兼容 iPhone 和 iPad<br>
+        • 需要相机和麦克风权限</p>
+    </div> -->
+
+    <div class="contact-info">
+        <h2>📞 联系我们</h2>
+        <p>如果您遇到其他问题或有功能建议，请通过以下方式联系我们：</p>
+        <p>📧 xiaoxiong@yomage.com</p>
+        <p>🎵 抖音：@小熊的AI创业记</p>
+        <p>⏰ 回复时间：1-2个工作日</p>
+    </div>
+
+    <div class="social-links">
+        <h3>🌟 关注我们</h3>
+        <p>在抖音搜索"小熊的AI创业记"，获取更多AI工具和创业分享！</p>
+        <a href="privacy-policy.html">隐私政策</a> |
+        <a href="terms-of-service.html">使用条款</a>
+    </div>
+
+    <div style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; color: #666;">
+        <p>© 2025 仓鼠管家. 版权所有</p>
+    </div>
 </body>
-</html>
-
-
+</html> 
